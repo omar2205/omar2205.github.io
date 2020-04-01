@@ -44,7 +44,7 @@ const App = () => {
           initial="off"
           animate="on"
           custom={1.8}
-        >Empty for now 😔</motion.p>
+        >Empty for now 😔😔</motion.p>
       </motion.div>
     </AppLayout>
   )

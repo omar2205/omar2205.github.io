@@ -16,7 +16,7 @@ const e_rocket = emoji.get("rocket");
     await execa("git", ["--work-tree", folderName, "add", "--all"]);
     await execa("git", ["--work-tree", folderName, "commit", "-m", "master"]);
     console.log(`${e_arrows} ${chalk.yellow("Pushing...")}`);
-    await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
+    await execa("git", ["push", "origin", "HEAD:master", "--force"]);
     await execa("rm", ["-r", folderName]);
     await execa("git", ["checkout", "-f", "dev-master"]);
     await execa("git", ["branch", "-D", "master"]);

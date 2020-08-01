@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Helvetica Now Display', 'SF Pro Display', helvetica, sans-serif;
   background: #f4f4f4;
-  height: 100vh;
+/*   height: 100vh; */
 }
 * {
   box-sizing: content-box;
